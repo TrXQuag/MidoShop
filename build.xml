@@ -11,7 +11,7 @@
     <description>Builds, tests, and runs the project MuaItThoi.</description>
     <import file="nbproject/build-impl.xml"/>
     <target name="sonar">
-    <property name="sonar.java.binaries" value="build\web\WEB-INF\classes"/>
+    <property name="sonar.java.binaries" value="build\web\WEB-INF\classes\controller"/>
     <antcall target="sonar-runner"/>
     </target>
 
