@@ -10,10 +10,6 @@
 <project name="MuaItThoi" default="default" basedir=".">
     <description>Builds, tests, and runs the project MuaItThoi.</description>
     <import file="nbproject/build-impl.xml"/>
-    <target name="sonar">
-    <property name="sonar.java.binaries" value="build/web/WEB-INF/classes/controller, build/web/WEB-INF/classes/dao, build/web/WEB-INF/classes/filter, build/web/WEB-INF/classes/model, build/web/WEB-INF/classes/utility"/>
-    <antcall target="sonar-runner"/>
-    </target>
 
     <!--
 
